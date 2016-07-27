@@ -3,24 +3,20 @@
 namespace School
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public class Student
     {
         private string name;
-        private int uid;
+        private int uniqueNumber = 10000;
 
-        public Student(string name, int uid)
+        public Student(string name, int uniqueNumber)
         {
             this.Name = name;
-            this.Uid = uid;
+            this.UniqueNumber = ++uniqueNumber;
         }
 
-        public string Name 
-        { 
+        public string Name
+        {
             get
             {
                 return this.name;
@@ -36,15 +32,15 @@ namespace School
             }
         }
 
-        public int Uid 
-        { 
+        public int UniqueNumber
+        {
             get
             {
-                return this.uid;
+                return this.uniqueNumber;
             }
             private set
             {
-                if (this.uid < 10000 || this.uid > 99999)
+                if (this.uniqueNumber < 10000 || this.uniqueNumber > 99999)
                 {
                     throw new ArgumentOutOfRangeException("The unique number is between 10000 and 99999!");
                 }

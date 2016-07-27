@@ -53,13 +53,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CourseTest.cs" />
-    <Compile Include="SchoolTest.cs" />
+    <Compile Include="CourseTest_Should.cs" />
+    <Compile Include="SchoolTest_Should.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudentTest.cs" />
+    <Compile Include="StudentTest_Should.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\School\School.csproj">
+      <Project>{f744d809-c6c4-465c-a0bb-529e55cfe65a}</Project>
+      <Name>School</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
