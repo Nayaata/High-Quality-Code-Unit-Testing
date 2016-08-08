@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{07C3D750-94C2-434C-B422-BEF63810B86C}</ProjectGuid>
+    <ProjectGuid>{18CE436D-7054-4A6A-B306-B8C73C37AA6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Poker.Test</RootNamespace>
-    <AssemblyName>Poker.Test</AssemblyName>
+    <RootNamespace>PokerTest</RootNamespace>
+    <AssemblyName>PokerTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,8 +50,27 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="PokerTest.cs" />
+    <Compile Include="CardToStringTest.cs" />
+    <Compile Include="CompareHandsTest.cs" />
+    <Compile Include="HandOrderHandTest.cs" />
+    <Compile Include="HandToStringTest.cs" />
+    <Compile Include="IsFlushTest.cs" />
+    <Compile Include="IsFourOfAKindTest.cs" />
+    <Compile Include="IsFullHouseTest.cs" />
+    <Compile Include="IsHighCardTest.cs" />
+    <Compile Include="IsOnePairTest.cs" />
+    <Compile Include="IsStraightFlushTest.cs" />
+    <Compile Include="IsStraightTest.cs" />
+    <Compile Include="IsThreeOfAKindTest.cs" />
+    <Compile Include="IsTwoPairTest.cs" />
+    <Compile Include="IsValidHandTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Poker\Poker.csproj">
+      <Project>{8f58ed14-4a45-4407-ba20-b63b6ad4174e}</Project>
+      <Name>Poker</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

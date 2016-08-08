@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker", "Poker\Poker.csproj", "{9FC74E1D-4ECA-4C4A-83C4-B5CA14658FEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTest", "PokerTest\PokerTest.csproj", "{18CE436D-7054-4A6A-B306-B8C73C37AA6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker.Test", "Poker.Test\Poker.Test.csproj", "{07C3D750-94C2-434C-B422-BEF63810B86C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poker", "Poker\Poker.csproj", "{8F58ED14-4A45-4407-BA20-B63B6AD4174E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9FC74E1D-4ECA-4C4A-83C4-B5CA14658FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FC74E1D-4ECA-4C4A-83C4-B5CA14658FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FC74E1D-4ECA-4C4A-83C4-B5CA14658FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FC74E1D-4ECA-4C4A-83C4-B5CA14658FEA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07C3D750-94C2-434C-B422-BEF63810B86C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07C3D750-94C2-434C-B422-BEF63810B86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07C3D750-94C2-434C-B422-BEF63810B86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07C3D750-94C2-434C-B422-BEF63810B86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CE436D-7054-4A6A-B306-B8C73C37AA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CE436D-7054-4A6A-B306-B8C73C37AA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CE436D-7054-4A6A-B306-B8C73C37AA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CE436D-7054-4A6A-B306-B8C73C37AA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F58ED14-4A45-4407-BA20-B63B6AD4174E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F58ED14-4A45-4407-BA20-B63B6AD4174E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F58ED14-4A45-4407-BA20-B63B6AD4174E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F58ED14-4A45-4407-BA20-B63B6AD4174E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
